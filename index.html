@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Specter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <form action="" onsubmit="event.preventDefault()" class="search_form">
+      <input
+        type="search"
+        name="search_bar"
+        class="search_bar"
+        id="search_bar"
+        placeholder="Phone"
+        autocomplete="off"
+      />
+      <button id="search_btn" class="search_btn" type="submit">Search</button>
+    </form>
+    <table>
+      <tbody id="results">
+        <tr>
+          <th>Brand</th>
+          <th>Phone</th>
+          <th style="text-align: center">Slug</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
